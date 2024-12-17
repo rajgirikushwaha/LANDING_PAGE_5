@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DwarvenStonecraftCyr;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1727258720973-fefc6360944d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#overlay1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(146, 121, 68, 0.516);
+} 
+#center1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#center1 h2{
+    font-size: 70px;
+}
+#center1 p{
+    font-size: 30px;
+}
+#center1 button{
+    width: 25%;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px black solid;
+}
+#center1 button:hover{
+    width: 25%;
+    font-size: 30px;
+    background-color: black;
+    border: 2px rgb(7, 6, 6) solid;
+    color: white;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1570218042305-ac476b00c52c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#overlay2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(13, 2, 2, 0.518);
+}
+#center2{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+#center2 h2{
+    font-size: 70px;
+}
+#center2 p{
+    font-size: 30px;
+}
+#center2 button{
+    width: 40%;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+}
+#center2 button:hover{
+    width: 40%;
+    font-size: 30px;
+    background-color: white;
+    border: 2px white solid;
+    color: rgb(7, 1, 1);
+}
